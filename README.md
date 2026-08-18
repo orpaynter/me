@@ -1,14 +1,12 @@
 <!-- PROFILE README — orpaynter/me -->
 
-<!-- ⚡ Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=OLIVER%20PAYNTER&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=I%20build%20AI%20that%20makes%20decisions%2C%20not%20suggestions.&descSize=20&descAlignY=58&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=OLIVER%20PAYNTER&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Architect%20%7C%20Founder%20%7C%20Operator&descSize=16&descColor=E9D5FF" alt="Oliver Paynter banner" />
 </p>
 
-<!-- ⌨️ Typing intro -->
 <p align="center">
   <a href="https://orpaynter.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=800&color=7C3AED&center=true&vCenter=true&width=750&lines=Founder+%7C+AI+Systems+Architect+%7C+Category+Creator;Multi-agent+orchestration.+Decision+intelligence.;Truth+over+trust.+Proof+over+promises.;117K+watch+me+drum.+You're+here+for+the+code.+%F0%9F%A5%81" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=830&lines=Founder+%7C+AI+Systems+Architect+%7C+Full-Stack+Builder+%7C+Operator+%7C+Drummer+%F0%9F%8F%81" alt="Typing intro" />
   </a>
 </p>
 
@@ -19,7 +17,7 @@
   <img src="https://komarev.com/ghpvc/?username=orpaynter&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" />
 </p>
 
----
+<hr />
 
 ## ⚡ TL;DR
 
@@ -34,48 +32,44 @@ const oliver = {
 } as const;
 ```
 
----
+<hr />
 
-## 🏗️ The Stack I'm Building (Not Using — *Building*)
+## 🧠 The Stack I'm Building
 
 <table>
-<tr>
-<td width="50%" valign="top">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 AIA</h3>
+      <strong>Artificial Intelligence Architecture</strong><br>
+      Core orchestration engine powering multi-agent AI pipelines. The brainstem.
 
-### 🧠 AIA
-**Artificial Intelligence Architecture**
-Core orchestration engine powering multi-agent AI pipelines. The brainstem.
+      <h3>🔐 ClaimFlow</h3>
+      <strong>Decision Verification & Proof Protocol</strong><br>
+      Truth over trust. Every AI decision comes with receipts.
 
-### 🔐 ClaimFlow
-**Decision Verification & Proof Protocol**
-Truth over trust. Every AI decision comes with receipts.
+      <h3>⚖️ TRAE</h3>
+      <strong>Truth Engineering Engine</strong><br>
+      Decision validation at scale. If it can't be verified, it doesn't ship.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌍 AGSI</h3>
+      <strong>Adaptive Global Systems Infrastructure</strong><br>
+      Predictive intelligence platform. Sees around corners.
 
-### ⚖️ TRAE
-**Truth Engineering Engine**
-Decision validation at scale. If it can't be verified, it doesn't ship.
+      <h3>🏭 Agent Factory</h3>
+      <strong>Multi-Agent Orchestration Framework</strong><br>
+      Enterprise automation that composes itself.
 
-</td>
-<td width="50%" valign="top">
-
-### 🌍 AGSI
-**Adaptive Global Systems Infrastructure**
-Predictive intelligence platform. Sees around corners.
-
-### 🏭 Agent Factory
-**Multi-Agent Orchestration Framework**
-Enterprise automation that composes itself.
-
-### 🔌 MCP Layers
-**Model Context Protocol Integration**
-Cross-system intelligence. Everything talks to everything.
-
-</td>
-</tr>
+      <h3>🔌 MCP Layers</h3>
+      <strong>Model Context Protocol Integration</strong><br>
+      Cross-system intelligence. Everything talks to everything.
+    </td>
+  </tr>
 </table>
 
-> 💡 **The thesis:** AI that *suggests* is a toy. AI that *decides — and proves why —* is infrastructure. I build the second kind.
+> 💡 <strong>The thesis:</strong> AI that suggests is a toy. AI that decides — and proves why — is infrastructure. I build the second kind.
 
----
+<hr />
 
 ## 🏢 The Empire
 
@@ -87,12 +81,12 @@ Cross-system intelligence. Everything talks to everything.
 
 *Roofs. Rockets. Robots. The pattern: I ship things that have to actually work.*
 
----
+<hr />
 
 ## ⚙️ Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,python,react,nextjs,nodejs,postgres,supabase,vercel,githubactions,docker,git,tailwind&perline=6" />
+  <img src="https://skillicons.dev/icons?i=ts,python,react,nextjs,nodejs,postgres,supabase,vercel,githubactions,docker,git,tailwind&perline=6" alt="Tech stack" />
 </p>
 
 <p align="center">
@@ -102,24 +96,24 @@ Cross-system intelligence. Everything talks to everything.
   <img src="https://img.shields.io/badge/Multi--Agent_Systems-302b63?style=flat-square&logo=robotframework&logoColor=white" />
 </p>
 
----
+<hr />
 
 ## 📊 The Numbers
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=orpaynter&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0f0c29&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=orpaynter&theme=midnightpurple&hide_border=true&background=0f0c29" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=orpaynter&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0f0c29&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=orpaynter&theme=midnightpurple&hide_border=true&background=0f0c29" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=orpaynter&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=orpaynter&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub trophies" />
 </p>
 
----
+<hr />
 
 ## 🎯 What I Actually Know
 
-```
+```text
 ██████████████████████░░  AI/ML Systems Architecture & Multi-Agent Orchestration
 █████████████████████░░░  Decision Intelligence & Proof Protocols
 █████████████████████░░░  Full-Stack (TypeScript / React / Next.js / Python)
@@ -128,7 +122,7 @@ Cross-system intelligence. Everything talks to everything.
 █████████████████████░░░  Patent & IP Strategy — category creation, moat-first design
 ```
 
----
+<hr />
 
 ## 🥁 Beyond Code
 
@@ -136,7 +130,7 @@ When I'm not architecting AI systems, I'm behind a drum kit with **[117K Instagr
 
 > Precision. Timing. Layered systems working in sync. Drumming and distributed systems are the same discipline.
 
----
+<hr />
 
 ## 📬 Connect
 
@@ -153,7 +147,6 @@ When I'm not architecting AI systems, I'm behind a drum kit with **[117K Instagr
   <i>⭐ If something here resonates — star a repo, send a message, or just watch the drums.</i>
 </p>
 
-<!-- Footer -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" alt="Footer banner" />
 </p>
