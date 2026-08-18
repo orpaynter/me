@@ -20,7 +20,7 @@ I'm **Oliver Paynter** — serial entrepreneur, full-stack developer, AI systems
 
 I don't build tools. I build **operating systems for intelligence** — multi-agent orchestration frameworks, decision verification protocols, and adaptive infrastructure that makes businesses run on autopilot with proof.
 
-I'm an **I/ENTJ**. All in or all out. Every system I build is designed to be defensible, scalable, and IP-protected from day one.
+All in or all out. Every system I build is designed to be defensible, scalable, and IP-protected from day one.
 
 ---
 
@@ -82,16 +82,12 @@ When I'm not architecting AI systems, I'm behind a drum kit with **117K Instagra
 
 ## 📬 Connect
 
-> I build in public, protect my IP, and go all in on everything I touch.
-> If you're building at the frontier of AI and want to collaborate — reach out.
+> I build in public, protect my IP, and go all in on everything I touch. If you're building at the frontier of AI and want to collaborate — reach out.
 
 <p align="center">
-  <a href="https://orpaynter.com">🌐 orpaynter.com</a> &nbsp;|&nbsp;
-  <a href="mailto:oliver@orpaynter.com">✉️ oliver@orpaynter.com</a> &nbsp;|&nbsp;
-  <a href="https://www.instagram.com/orpaynter">🥁 Instagram</a>
+  <a href="https://orpaynter.com">🌐 orpaynter.com</a> | 
+  <a href="mailto:ov@orpaynter.com">📧 ov@orpaynter.com</a> | 
+  <a href="https://www.instagram.com/orpaynter">📸 Instagram</a>
 </p>
 
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" />
