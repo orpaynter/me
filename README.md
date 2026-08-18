@@ -1,93 +1,159 @@
 <!-- PROFILE README — orpaynter/me -->
-<!-- Banner -->
+
+<!-- ⚡ Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=200&section=header&text=Oliver%20Paynter&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Founder%20%7C%20AI%20Systems%20Architect%20%7C%20Category%20Creator&descAlignY=60&descColor=c0c0c0" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=OLIVER%20PAYNTER&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=I%20build%20AI%20that%20makes%20decisions%2C%20not%20suggestions.&descSize=20&descAlignY=58&animation=fadeIn" />
 </p>
 
-<h3 align="center">Hey, I'm Oliver — I build AI-powered systems that make decisions, not just suggestions.</h3>
+<!-- ⌨️ Typing intro -->
+<p align="center">
+  <a href="https://orpaynter.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=800&color=7C3AED&center=true&vCenter=true&width=750&lines=Founder+%7C+AI+Systems+Architect+%7C+Category+Creator;Multi-agent+orchestration.+Decision+intelligence.;Truth+over+trust.+Proof+over+promises.;117K+watch+me+drum.+You're+here+for+the+code.+%F0%9F%A5%81" />
+  </a>
+</p>
 
 <p align="center">
-  <a href="https://orpaynter.com"><img src="https://img.shields.io/badge/orpaynter.com-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
-  <a href="https://github.com/orpaynter"><img src="https://img.shields.io/badge/GitHub-orpaynter-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://www.instagram.com/orpaynter"><img src="https://img.shields.io/badge/Instagram-117K%20Followers-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://orpaynter.com"><img src="https://img.shields.io/badge/🌐_orpaynter.com-0f0c29?style=for-the-badge&logoColor=white" /></a>
+  <a href="mailto:ov@orpaynter.com"><img src="https://img.shields.io/badge/📧_ov@orpaynter.com-302b63?style=for-the-badge" /></a>
+  <a href="https://www.instagram.com/orpaynter"><img src="https://img.shields.io/badge/Instagram-117K-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=orpaynter&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" />
 </p>
 
 ---
 
-## 🧠 Who I Am
+## ⚡ TL;DR
 
-I'm **Oliver Paynter** — serial entrepreneur, full-stack developer, AI systems architect, and category creator operating out of **Nantucket, MA**.
-
-I don't build tools. I build **operating systems for intelligence** — multi-agent orchestration frameworks, decision verification protocols, and adaptive infrastructure that makes businesses run on autopilot with proof.
-
-All in or all out. Every system I build is designed to be defensible, scalable, and IP-protected from day one.
-
----
-
-## 🏗️ What I'm Building
-
-| System | Description |
-|--------|-------------|
-| **AIA** — Artificial Intelligence Architecture | Core orchestration engine powering multi-agent AI pipelines |
-| **ClaimFlow** | Decision verification & proof protocol system — truth over trust |
-| **TRAE** | Truth engineering & decision validation engine |
-| **AGSI** | Adaptive Global Systems Infrastructure — predictive intelligence platform |
-| **Agent Factory** | Multi-agent orchestration framework for enterprise automation |
-| **MCP Layers** | Model Context Protocol integration layer for cross-system intelligence |
+```typescript
+const oliver = {
+  location: "Nantucket, MA 🌊",
+  role: ["Founder", "AI Systems Architect", "Full-Stack Dev", "Drummer 🥁"],
+  mission: "Operating systems for intelligence — not tools, infrastructure.",
+  philosophy: "All in or all out. Defensible. Scalable. IP-first.",
+  currentFocus: "Multi-agent orchestration & decision verification protocols",
+  funFact: "117K people watch me play drums. Same intensity, different instrument.",
+} as const;
+```
 
 ---
 
-## 🏢 Companies
+## 🏗️ The Stack I'm Building (Not Using — *Building*)
 
-- 🤖 **[OrPaynter, Inc.](https://orpaynter.com)** *(C-Corp, Delaware)* — AI-powered platforms for the contracting industry
-- 🏠 **Oliver's Roofing & Contracting LLC** *(Dallas, TX)* — Full-service roofing & contracting
-- 🎆 **Power House Fireworks LLC** *(Yantis, TX)* — Professional fireworks
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 AIA
+**Artificial Intelligence Architecture**
+Core orchestration engine powering multi-agent AI pipelines. The brainstem.
+
+### 🔐 ClaimFlow
+**Decision Verification & Proof Protocol**
+Truth over trust. Every AI decision comes with receipts.
+
+### ⚖️ TRAE
+**Truth Engineering Engine**
+Decision validation at scale. If it can't be verified, it doesn't ship.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌍 AGSI
+**Adaptive Global Systems Infrastructure**
+Predictive intelligence platform. Sees around corners.
+
+### 🏭 Agent Factory
+**Multi-Agent Orchestration Framework**
+Enterprise automation that composes itself.
+
+### 🔌 MCP Layers
+**Model Context Protocol Integration**
+Cross-system intelligence. Everything talks to everything.
+
+</td>
+</tr>
+</table>
+
+> 💡 **The thesis:** AI that *suggests* is a toy. AI that *decides — and proves why —* is infrastructure. I build the second kind.
 
 ---
 
-## ⚙️ Tech Stack
+## 🏢 The Empire
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+| | Company | What It Does |
+|---|---------|--------------|
+| 🤖 | **[OrPaynter, Inc.](https://orpaynter.com)** *(Delaware C-Corp)* | AI-powered platforms for the contracting industry |
+| 🏠 | **Oliver's Roofing & Contracting LLC** *(Dallas, TX)* | Full-service roofing & contracting |
+| 🎆 | **Power House Fireworks LLC** *(Yantis, TX)* | Professional fireworks — yes, really |
+
+*Roofs. Rockets. Robots. The pattern: I ship things that have to actually work.*
+
+---
+
+## ⚙️ Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,python,react,nextjs,nodejs,postgres,supabase,vercel,githubactions,docker,git,tailwind&perline=6" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM_Orchestration-7C3AED?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-0f0c29?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Multi--Agent_Systems-302b63?style=flat-square&logo=robotframework&logoColor=white" />
 </p>
 
 ---
 
-## 🎯 Expertise
+## 📊 The Numbers
 
-- **AI/ML Systems Architecture & Orchestration** — multi-agent pipelines, LLM routing, decision graphs
-- **Decision Intelligence & Proof Protocols** — ClaimFlow, TRAE, truth-engineering at scale
-- **Full-Stack Development** — TypeScript, React, Next.js, Python APIs
-- **Database Design & Optimization** — PostgreSQL, Supabase, real-time architecture
-- **DevOps & CI/CD** — Vercel, GitHub Actions, Docker, automated deployments
-- **Patent & IP Strategy** — category creation, defensible architecture, IP-first product design
-- **Enterprise Software** — API design, integration layers, MCP protocol systems
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=orpaynter&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0f0c29&count_private=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=orpaynter&theme=midnightpurple&hide_border=true&background=0f0c29" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=orpaynter&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" />
+</p>
+
+---
+
+## 🎯 What I Actually Know
+
+```
+██████████████████████░░  AI/ML Systems Architecture & Multi-Agent Orchestration
+█████████████████████░░░  Decision Intelligence & Proof Protocols
+█████████████████████░░░  Full-Stack (TypeScript / React / Next.js / Python)
+████████████████████░░░░  Database Design (PostgreSQL / Supabase / Real-time)
+████████████████████░░░░  DevOps & CI/CD (Vercel / Actions / Docker)
+█████████████████████░░░  Patent & IP Strategy — category creation, moat-first design
+```
 
 ---
 
 ## 🥁 Beyond Code
 
-When I'm not architecting AI systems, I'm behind a drum kit with **117K Instagram followers** — same intensity, different instrument.
+When I'm not architecting AI systems, I'm behind a drum kit with **[117K Instagram followers](https://www.instagram.com/orpaynter)** — same intensity, different instrument.
+
+> Precision. Timing. Layered systems working in sync. Drumming and distributed systems are the same discipline.
 
 ---
 
 ## 📬 Connect
 
-> I build in public, protect my IP, and go all in on everything I touch. If you're building at the frontier of AI and want to collaborate — reach out.
+> **I build in public, protect my IP, and go all in on everything I touch.**
+> Building at the frontier of AI? Let's talk.
 
 <p align="center">
-  <a href="https://orpaynter.com">🌐 orpaynter.com</a> | 
-  <a href="mailto:ov@orpaynter.com">📧 ov@orpaynter.com</a> | 
-  <a href="https://www.instagram.com/orpaynter">📸 Instagram</a>
+  <a href="https://orpaynter.com"><img src="https://img.shields.io/badge/🌐_Website-orpaynter.com-7C3AED?style=for-the-badge" /></a>
+  <a href="mailto:ov@orpaynter.com"><img src="https://img.shields.io/badge/📧_Email-ov@orpaynter.com-302b63?style=for-the-badge" /></a>
+  <a href="https://www.instagram.com/orpaynter"><img src="https://img.shields.io/badge/🥁_Instagram-@orpaynter-E1306C?style=for-the-badge" /></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" />
+<p align="center">
+  <i>⭐ If something here resonates — star a repo, send a message, or just watch the drums.</i>
+</p>
+
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+</p>
