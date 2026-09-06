@@ -1,192 +1,103 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/orpaynter-banner-mobile.png">
+    <img src="./assets/orpaynter-banner.png" alt="Oliver Paynter. Founder. Operator. Roofer first. AI drafts. Humans govern. Building the Trust Rail for the Agentic Era." width="100%">
+  </picture>
+</p>
 
 # Oliver Paynter
 
-### Founder • Operator • Roofer-first builder of governed AI
+Founder / CEO of [OrPaynter, Inc.](https://github.com/Orpaynter-Inc). AI systems architect. Roofer first. I build governed AI for roofing insurance claims, starting with the work I know firsthand.
 
-[![Governed AI](https://img.shields.io/badge/Building-Governed%20AI-111111?style=for-the-badge&logo=openai&logoColor=white)](#the-thesis)
-[![Roofing Claims](https://img.shields.io/badge/Focus-Roofing%20Claims-9b1c1c?style=for-the-badge)](#what-im-building)
-[![Human Authority](https://img.shields.io/badge/Rule-AI%20drafts%20%E2%86%92%20Humans%20govern-1f6feb?style=for-the-badge)](#operating-rule)
+**The machine prepares the work. A named human owns the decision.**
 
-**Founder / CEO, [OrPaynter, Inc.](https://github.com/Orpaynter-Inc)**  
-Building systems where evidence is linked, decisions are named, and automation does not outrun human authority.
+[Explore the company](https://orpaynter.ai) · [OrPaynter Intelligence](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7) · [Get in touch](mailto:ov@orpaynter.com)
 
-[orpaynter.ai](https://orpaynter.ai) · [ov@orpaynter.com](mailto:ov@orpaynter.com)
-
-<br>
-
-[![Open OrPaynter Intelligence](https://img.shields.io/badge/ORPAYNTER%20INTELLIGENCE-Trust%20Rail%20for%20the%20Agentic%20Era-000000?style=for-the-badge&logo=notion&logoColor=white)](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7)
-
-<sub>Strategy, systems, decisions, and operating intelligence behind OrPaynter, Inc.</sub>
-
-</div>
+[ClaimFlow](#claimflow) · [The build map](#the-build-map) · [The thinking behind the build](#the-thinking-behind-the-build)
 
 ---
 
-## ⚡ The thesis
+## Built from the field up
 
-Most people are using AI to generate more output.
+Roofing taught me that evidence matters, real work is messy, and bad decisions cost people money. That is the starting point for OrPaynter, not an afterthought.
 
-I am building AI that can survive contact with reality.
+I am building for the moment when an AI-generated draft becomes someone's responsibility. The evidence should still be attached. The decision should have an owner. And the record should explain what happened.
 
-OrPaynter builds **governed AI for roofing insurance claims**.
+## ClaimFlow
 
-```text
-Intake
-  ↓
-Evidence-linked draft
-  ↓
-Named human gate
-  ↓
-Locked Decision Package
-```
+### Faster preparation. Human authority. A record that holds up.
 
-> **AI drafts. Humans govern. Proof matters.**
+ClaimFlow is being built to move roofing insurance claims from scattered information to an evidence-linked draft, through a named human review, and into a locked Decision Package.
 
-This is not AI that replaces judgment. It is a system where the machine prepares the work, while a real human remains responsible for the final decision.
+<p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/claimflow-workflow-mobile.png">
+    <img src="./assets/claimflow-workflow.png" alt="ClaimFlow's intended workflow: intake, evidence-linked draft, named human review, then locked Decision Package. Rejected drafts return to review; AI output is not approval." width="100%">
+  </picture>
+</p>
 
----
+| Principle | What we are designing for |
+| :--- | :--- |
+| **Evidence stays attached** | The supporting material travels with the draft, not in a separate trail of messages. |
+| **Authority stays human** | A named person reviews the work. AI output is not approval. |
+| **Decisions stay inspectable** | Preserve what was decided, who authorized it, and what supports it. |
 
-## 🧠 OrPaynter Intelligence
+> **The operating rule:** Automation is not authority. A polished demo is not proof of customer production.
 
-The code is the build trail.
+## The build map
 
-The Notion workspace is the thinking layer behind the build: product doctrine, research, architecture, decisions, projects, and the **Trust Rail for the Agentic Era**.
+GitHub is the build trail, not every experiment promoted to a product. The map below separates the canonical architecture from supporting work, historical builds, and upstream tools.
 
-> **GitHub shows what is being built.**  
-> **Notion shows why it exists.**  
-> **Reality decides what survives.**
+<details>
+<summary><strong>Explore the architecture and repository map</strong></summary>
 
-[![Open the Command Center](https://img.shields.io/badge/Open%20the%20Command%20Center-Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7)
+### Canonical direction
 
-```text
-┌─────────────────────────────────────────────────────┐
-│  ORPAYNTER, INC. — THE TRUST RAIL                   │
-├─────────────────────────────────────────────────────┤
-│  Vision        → What must become true              │
-│  Strategy      → What gets built next               │
-│  Product       → ClaimFlow + governed workflows     │
-│  Evidence      → What can be proven                 │
-│  Decisions     → What a human has authorized        │
-│  Execution     → What survives the real world       │
-└─────────────────────────────────────────────────────┘
-```
+These are the four repositories identified as the canonical direction in this account, not a claim that every component is production-ready.
 
----
+| Repository | Responsibility |
+| :--- | :--- |
+| [**AIA**](https://github.com/orpaynter/AIA) | Backend authority, Decision Package logic, and human-gate controls. |
+| [**claimflow**](https://github.com/orpaynter/claimflow) | Shared case state machine and portable proof. |
+| [**orpa**](https://github.com/orpaynter/orpa) | Governed operator layer. A named human owns the final decision. |
+| [**orpaynter-web**](https://github.com/orpaynter/orpaynter-web) | External verification surface, distinct from older marketing sites. |
 
-## 🧬 Prompt Intelligence Corpus
+<sub>Core working repositories may require access. This public page is the map, not an open-source release of the full system.</sub>
 
-OrPaynter is not built on a folder of clever prompts.
+### Supporting work
 
-It is being shaped by a proprietary corpus of **200,000+ prompt patterns, agent instructions, workflow structures, evaluation ideas, failure cases, claim scenarios, and decision frameworks**.
+- **orpaynter-claim-rail:** Foreman UI work, separate from the four-repository canonical direction.
+- **orpaynter-agent-factory:** Internal agent constitution work. Agent instructions do not confer decision authority.
+- **website:** Marketing and SaaS shell, not evidence of working product capabilities.
 
-```text
-Raw prompts
-   ↓
-Structured patterns
-   ↓
-Agent roles and constraints
-   ↓
-Evidence-aware workflows
-   ↓
-Human-governed decisions
-   ↓
-Reusable operating intelligence
-```
+### Historical builds
 
-> A prompt is a suggestion.  
-> A governed workflow is an operating system.
+Older overlays, THE-ONE copies, Nexus spaces, starter projects, investor databases, mobile experiments, and tutorial repositories remain part of the build history. They should not be treated as the current platform.
 
-The purpose is not to make AI sound impressive. The purpose is to make AI useful, bounded, inspectable, and accountable.
+### Upstream tools
 
----
+Forks such as UI-TARS-desktop, browser-use, and Auto-GPT are upstream tools, not original OrPaynter products.
 
-## 🧭 Why this repo exists
+### Verification boundary
 
-This repository is the **canonical vs historical** map of `github.com/orpaynter`.
+Treat synthetic bundles and machine checks as synthetic or machine proof, not customer validation. A real job, tests, and a named human's verification matter more than a live URL or the newest presentation.
 
-A GitHub account can become a graveyard of good ideas: prototypes, experiments, tool forks, older architecture, marketing shells, and real product foundations all sitting next to each other.
+</details>
 
-This page exists to make the signal obvious:
+## The thinking behind the build
 
-```text
-Signal > noise
-Proof > polish
-Authority > automation theater
-Reality > repo confusion
-```
+**OrPaynter Intelligence** is the strategy and systems layer behind the code: product doctrine, research, architecture, decisions, and the Trust Rail for the Agentic Era.
+
+The work includes prompt patterns, agent instructions, workflow structures, evaluation ideas, and failure cases. The aim is not a bigger pile of prompts. It is reusable operating intelligence with boundaries, evidence, and accountable owners.
+
+[Explore OrPaynter Intelligence in Notion](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7)
 
 ---
 
-## 🏗️ What I’m building
+## Build something that holds up.
 
-ClaimFlow is designed for the real world of roofing insurance claims—where a decision is never just text on a screen.
+If you work in roofing, claims, or AI systems where someone must stand behind the outcome, let's talk. I am building from the field upward, with proof ahead of promises.
 
-```mermaid
-flowchart LR
-    A[Claim Intake] --> B[Evidence-Linked Draft]
-    B --> C{Named Human Gate}
-    C -->|Approve / Edit| D[Locked Decision Package]
-    C -->|Reject| E[Return to Review]
-    E --> B
-```
+[**Start a conversation**](mailto:ov@orpaynter.com) · [orpaynter.ai](https://orpaynter.ai) · [Company GitHub](https://github.com/Orpaynter-Inc)
 
-The objective:
-
-- Make preparation faster
-- Keep evidence attached to the work
-- Keep authority attached to a named human
-- Preserve what was decided, why it was decided, and what supports it
-
----
-
-## 🧱 Canonical direction
-
-| Repository | Role | Signal |
-|---|---|---|
-| [AIA](https://github.com/orpaynter/AIA) | Backend authority | Decision Package logic and human gate control |
-| [claimflow](https://github.com/orpaynter/claimflow) | Shared case state machine | Portable proof and case-flow logic |
-| [orpa](https://github.com/orpaynter/orpa) | Governed operator layer | A named human owns the final decision |
-| [orpaynter-web](https://github.com/orpaynter/orpaynter-web) | Public verification surface | Controlled external verification path |
-
----
-
-## 🔥 What makes this different
-
-A lot of AI products try to impress with output.
-
-The better questions are:
-
-- Who owns the decision?
-- What evidence supports it?
-- Can the result be challenged later?
-- Can the workflow be inspected after the fact?
-
-```text
-Automation is not authority.
-A polished artifact is not automatically current.
-An HTTP 200 is not customer production.
-Real jobs + tests beat claims.
-```
-
----
-
-## 👷 About me
-
-I build from the field upward.
-
-Roofing taught me that real work is messy, evidence matters, and bad decisions cost people money. That experience shapes everything here.
-
-- AI should compress effort—not erase responsibility
-- Evidence should travel with the output
-- Decisions should have accountable owners
-- Verification should outrank presentation
-- Software should hold up outside the demo
-
-<div align="center">
-
-## AI drafts. Humans govern.
-
-### Proof matters.
-
-</div>
+<p align="center"><sub>AI drafts. Humans govern. Proof matters.</sub></p>
