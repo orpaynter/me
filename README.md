@@ -5,41 +5,72 @@
   </picture>
 </p>
 
-# Oliver Paynter
+<h1 align="center">Oliver Paynter</h1>
+<p align="center"><b>Founder / CEO — OrPaynter, Inc.</b></p>
 
-### Founder / CEO of [OrPaynter, Inc.](https://github.com/Orpaynter-Inc)
+<h2 align="center">AI drafts. Humans govern. Proof survives.</h2>
 
-Roofer first. AI systems architect. Builder of governed AI for roofing insurance claims.
+<p align="center">
+<b>The machine everyone is racing to ship can't answer one question:<br>
+who stands behind the decision when it's wrong?</b>
+</p>
 
-I am building the trust rail for the moment when AI work becomes somebody's real-world decision: the machine prepares the work, a named human owns the decision, and the evidence remains attached to the record.
+<p align="center">
+I'm building the answer. It's called the <b>Trust Rail</b> — and it starts with roofing insurance claims, because that's the industry that taught me what happens when evidence and accountability get separated.
+</p>
 
-**AI drafts. Humans govern. Proof matters.**
+<p align="center">
+<a href="https://orpaynter.ai"><b>orpaynter.ai</b></a> ·
+<a href="https://github.com/Orpaynter-Inc"><b>Company GitHub</b></a> ·
+<a href="https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7"><b>OrPaynter Intelligence</b></a>
+</p>
 
-[orpaynter.ai](https://orpaynter.ai) · [Company GitHub](https://github.com/Orpaynter-Inc) · [OrPaynter Intelligence](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7) · [Get in touch](mailto:ov@orpaynter.com)
-
-[What I am building](#what-i-am-building) · [ClaimFlow](#claimflow) · [Architecture map](#architecture-map) · [Operating law](#operating-law) · [Verification boundary](#verification-boundary)
+<p align="center">
+<a href="#what-im-building">What I'm building</a> ·
+<a href="#claimflow">ClaimFlow</a> ·
+<a href="#architecture-map">Architecture map</a> ·
+<a href="#operating-law">Operating law</a> ·
+<a href="#verification-boundary">Verification boundary</a>
+</p>
 
 ---
 
-## What I am building
+## Why this exists
 
-OrPaynter is a software company building governed AI for roofing insurance claims.
+Every industry racing to bolt on AI is skipping the hardest part: **authority**.
 
-The first product is **ClaimFlow**: a claim operating flow that turns scattered photos, notes, documents, and job context into an evidence-linked draft, routes that draft through a human approval gate, and preserves the final result as a locked Decision Package.
+Machines are fast. They are also confidently wrong. The companies shipping "autonomous AI agents" into money-facing decisions are building liability, not leverage.
 
-This starts in roofing because that is the work I know firsthand. Roofing taught me that field work is messy, evidence matters, and bad decisions cost people real money.
+Roofing insurance claims made this undeniable to me first-hand — I've stood on the roof, I've seen the adjuster's judgment call, and I've watched good evidence get lost the moment a workflow gets automated carelessly.
 
-OrPaynter exists to make AI useful inside that reality—not to create an autonomous claims robot, not to replace judgment, and not to publish claims that cannot be proven on real jobs.
+**OrPaynter is the fix.** Not a smarter chatbot. A governed operating layer where:
+
+- the machine prepares the work
+- a named human owns the decision
+- the evidence is permanently attached to that decision
+- authority is never inherited by the automation
+
+This is the Trust Rail — the infrastructure layer the agentic era needs before it can be trusted with anything that matters.
+
+---
+
+## What I'm building
+
+OrPaynter is a software company building **governed AI for roofing insurance claims** — the first proving ground for the Trust Rail.
+
+The flagship product is **ClaimFlow**: a claim operating system that turns scattered field evidence — photos, notes, documents, job context — into an evidence-linked draft, routes it through a real human approval gate, and locks the result into a reconstructable Decision Package.
+
+This isn't an autonomous claims robot. It isn't a replace-the-adjuster play. It's the system that lets contractors and carriers move at machine speed **without losing the one thing that actually protects everyone: accountability.**
 
 ---
 
 ## ClaimFlow
 
-### Intake → evidence-linked draft → human gate → locked Decision Package
+### Intake → Evidence-linked draft → Human gate → Locked Decision Package
 
-ClaimFlow is designed around one rule: **automation can prepare work, but it does not own authority.**
+One rule governs everything: **automation can prepare work. It can never own authority.**
 
-<p>
+<p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/claimflow-workflow-mobile.png">
     <img src="./assets/claimflow-workflow.png" alt="ClaimFlow workflow: intake, evidence-linked draft, named human review, then locked Decision Package. Rejected drafts return to review and correction." width="100%">
@@ -48,47 +79,41 @@ ClaimFlow is designed around one rule: **automation can prepare work, but it doe
 
 | Layer | Purpose |
 | :--- | :--- |
-| **Intake** | Gather job facts, photos, files, notes, and claim context. |
-| **Evidence-linked draft** | Use AI to organize and prepare the work without separating claims from source material. |
-| **Human gate** | Require an identity-bound human to approve, reject, or return the draft for correction. |
-| **Decision Package** | Preserve what was decided, who authorized it, and what evidence supported it. |
+| **Intake** | Capture job facts, photos, files, notes, and claim context — nothing gets lost. |
+| **Evidence-linked draft** | AI organizes and prepares the work — claims never separate from source evidence. |
+| **Human gate** | An identity-bound human approves, rejects, or returns the draft. No exceptions. |
+| **Decision Package** | The permanent record: what was decided, who authorized it, what evidence backed it. |
 
-The product goal is simple: help contractors move faster without losing accountability.
+**The product goal:** help contractors and carriers move faster — without ever losing who's accountable.
 
 ---
 
 ## Architecture map
 
-GitHub is my build trail. Not every repository is the product, and not every experiment should be treated as the canonical direction.
+GitHub is my build trail. Not every repo is the product — some are experiments, some are history, and four define where this is actually going.
 
-### Canonical direction
-
-These four repositories define the current product architecture. Some are private or production-scoped foundations rather than public open-source releases.
+### 🎯 Canonical direction
 
 | Repository | Responsibility |
 | :--- | :--- |
-| [**AIA**](https://github.com/orpaynter/AIA) | Backend authority layer: FastAPI foundation, decision-package logic, intelligence services, and human-gate controls. |
-| [**claimflow**](https://github.com/orpaynter/claimflow) | Shared claim operating flow: case state machine, Intake Foreman, TRAE/AIA gates, and portable proof. |
-| [**orpa**](https://github.com/orpaynter/orpa) | Governed operator console: identity-bound approve/reject, fail-closed behavior, and payments disabled by design. |
-| [**orpaynter-web**](https://github.com/orpaynter/orpaynter-web) | Public product and verification surface: ClaimFlow site, record verification, and synthetic proving ground. |
+| [**AIA**](https://github.com/orpaynter/AIA) | Backend authority layer — FastAPI foundation, decision-package logic, intelligence services, human-gate controls. |
+| [**claimflow**](https://github.com/orpaynter/claimflow) | Shared claim operating flow — case state machine, Intake Foreman, TRAE/AIA gates, portable proof. |
+| [**orpa**](https://github.com/orpaynter/orpa) | Governed operator console — identity-bound approve/reject, fail-closed behavior, payments disabled by design. |
+| [**orpaynter-web**](https://github.com/orpaynter/orpaynter-web) | Public product + verification surface — ClaimFlow site, record verification, synthetic proving ground. |
 
-### Supporting work
+### 🔧 Supporting work
 
 | Repository | Role |
 | :--- | :--- |
-| **orpaynter-claim-rail** | Earlier Foreman / claim rail MVP work. Useful context, not the canonical runtime. |
-| **orpaynter-agent-factory** | Agent constitution and sandbox work. Agents may improve, but they may never promote their own authority. |
-| **website** | Marketing and SaaS shell work. Any public use must avoid unverifiable stats or production claims. |
+| **orpaynter-claim-rail** | Earlier Foreman / claim rail MVP work — context, not the canonical runtime. |
+| **orpaynter-agent-factory** | Agent constitution and sandbox work — agents may improve, they may never self-promote authority. |
+| **website** | Marketing/SaaS shell work — no unverifiable stats, no production claims. |
 
-### Historical and upstream work
+### 🗂️ Historical and upstream work
 
-Older overlays, Nexus spaces, starter projects, tutorial repos, investor databases, mobile experiments, CDN starters, and copied upstream tools are part of the build history.
+Older overlays, Nexus spaces, starter projects, tutorials, investor databases, mobile experiments, CDN starters, and upstream forks make up the build history. Forks like UI-TARS-desktop, browser-use, Auto-GPT, Langtrace, Ollama, PocketManus, and OSINT-Assistant are references and tooling — **not** the OrPaynter product.
 
-Forks and experiments such as UI-TARS-desktop, browser-use, Auto-GPT, Langtrace, Ollama, PocketManus, OSINT-Assistant, and related agent tools are useful references or tooling—not the OrPaynter product.
-
-If two files disagree, this is the rule:
-
-> Company identity wins on who we are. AIA + ClaimFlow win on what the product does. A real job plus tests win on what works. The newest demo never wins by default.
+> **The tiebreaker rule:** Company identity wins on *who we are*. AIA + ClaimFlow win on *what the product does*. A real job plus tests win on *what actually works*. The newest demo never wins by default.
 
 ---
 
@@ -97,24 +122,24 @@ If two files disagree, this is the rule:
 1. **The system drafts. A human approves.**
 2. **Agents may become more capable. They may never grant themselves more authority.**
 3. **Every money-facing or customer-facing action needs a reconstructable Decision Package plus evidence.**
-4. **Do not publish accuracy, ROI, customer counts, certifications, or production claims that cannot be shown on real jobs.**
-5. **Synthetic proof is useful, but it is not customer validation.**
+4. **No published accuracy, ROI, customer counts, certifications, or production claims that can't be shown on real jobs.**
+5. **Synthetic proof is useful. It is never customer validation.**
 
 ---
 
 ## Verification boundary
 
-OrPaynter is being built in public enough to show direction, but carefully enough not to confuse prototypes, demos, and synthetic verification with production proof.
+Built in public enough to show direction — carefully enough to never confuse a demo with production proof.
 
 | Signal | How to read it |
 | :--- | :--- |
-| **HTTP 200 / live URL** | The surface loads. It does not prove customer production. |
-| **Synthetic bundle** | Useful machine proof. Not the same as a real claim. |
+| **HTTP 200 / live URL** | The surface loads. Not customer production. |
+| **Synthetic bundle** | Useful machine proof. Not a real claim. |
 | **Agent run** | Helpful automation. Not human approval. |
-| **Decision Package** | The target record: decision, human authority, supporting evidence, and reconstructable context. |
-| **Real job + named review** | The standard that matters. |
+| **Decision Package** | The target record — decision, authority, evidence, reconstructable context. |
+| **Real job + named review** | ⭐ The standard that matters. |
 
-The standard is not “does it look impressive?” The standard is “can a person stand behind this decision later?”
+**The bar isn't "does it look impressive?"** It's: **can a person stand behind this decision later?**
 
 ---
 
@@ -122,28 +147,32 @@ The standard is not “does it look impressive?” The standard is “can a pers
 
 **OrPaynter, Inc.** is the software company.
 
-**Oliver's Roofing & Contracting** is the trade background and real-world domain context. The field experience informs the product, but the entities are not the same thing.
+**Oliver's Roofing & Contracting** is the trade background and real-world domain proving ground. The field experience informs the product — the entities are not the same thing.
 
-The company GitHub face is [Orpaynter-Inc](https://github.com/Orpaynter-Inc). This account, `orpaynter`, remains the founder/build account until the canonical Wave 1 repositories move under the company organization.
+The company face is [Orpaynter-Inc](https://github.com/Orpaynter-Inc). This account, `orpaynter`, is the founder/build account until canonical Wave 1 repos move under the company org.
 
 ---
 
 ## OrPaynter Intelligence
 
-OrPaynter Intelligence is the strategy and systems layer behind the code: product doctrine, research, architecture, prompt patterns, agent instructions, evaluation ideas, failure cases, and decision design.
+The strategy layer behind the code — doctrine, research, architecture, prompt patterns, agent instructions, failure cases, decision frameworks.
 
-The goal is not a bigger pile of prompts. The goal is reusable operating intelligence where responsibility is explicit and evidence survives the workflow.
+Not a bigger pile of prompts. **Reusable operating intelligence where responsibility is explicit and evidence survives the workflow.**
 
-[Explore OrPaynter Intelligence in Notion](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7)
+[**Explore OrPaynter Intelligence →**](https://app.notion.com/p/OrPaynter-Trust-Rail-for-the-Agentic-Era-c542fbe957d9424b83279d767ccf2aa7)
 
 ---
 
 ## Build something that holds up
 
-If you work in roofing, insurance claims, field operations, or AI systems where a human must stand behind the outcome, I want to talk.
+If you work in roofing, insurance claims, field operations, or AI systems where a human must stand behind the outcome — **let's talk.**
 
-I am building from the field up—with proof ahead of promises.
+I'm building from the field up, with proof ahead of promises. No hype, no vaporware, no "trust me" — just a rail strong enough to hold real weight.
 
-[**Start a conversation**](mailto:ov@orpaynter.com) · [orpaynter.ai](https://orpaynter.ai) · [Company GitHub](https://github.com/Orpaynter-Inc)
+<p align="center">
+<a href="mailto:ov@orpaynter.com"><b>Start a conversation</b></a> ·
+<a href="https://orpaynter.ai"><b>orpaynter.ai</b></a> ·
+<a href="https://github.com/Orpaynter-Inc"><b>Company GitHub</b></a>
+</p>
 
-<p align="center"><sub>AI drafts. Humans govern. Proof matters.</sub></p>
+<p align="center"><sub><b>AI drafts. Humans govern. Proof matters.</b></sub></p>
