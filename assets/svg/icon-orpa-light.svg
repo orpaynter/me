@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ORPA — identity-bound human control</title><desc id="desc">An operator identity sits beside separate approve and reject controls.</desc>
+  <style>@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="#e6eef6" stroke="#71869c"/>
+  <g fill="none" stroke="#086f62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="23" cy="23" r="7"/><path d="M12 47V43A11 11 0 0 1 34 43V47M40 21L44 25L52 17M42 37L51 46M51 37L42 46" stroke="#925b12"/></g>
+</svg>

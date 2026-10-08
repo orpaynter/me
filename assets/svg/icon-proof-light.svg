@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Proof — record the decision</title><desc id="desc">A record with a check and source lines represents reconstructable decision context, not certification.</desc>
+  <style>@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="#e6eef6" stroke="#71869c"/>
+  <path d="M18 12H38L47 21V52H18ZM38 12V21H47M25 31L30 36L40 26M25 43H40M25 47H35" fill="none" stroke="#086f62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

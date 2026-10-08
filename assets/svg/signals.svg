@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="676" viewBox="0 0 480 676" role="img" aria-labelledby="title desc">
+<title id="title">OrPaynter repository signals</title>
+<desc id="desc">GitHub repository traffic, not profile-page analytics. Views are deduplicated by repository and UTC day. Daily unique visitors are shown only for the latest recorded day of each repository, never summed. Missing data is not a zero.</desc>
+<rect width="480" height="676" rx="20" fill="#101b2b"/>
+<g font-family="ui-sans-serif, system-ui, sans-serif">
+<path d="M24 38h10l5-12 8 24 5-12h12" fill="none" stroke="#71dfc6" stroke-width="3"/>
+<text x="80" y="44" fill="#f0f6ff" font-size="22" font-weight="700">REPOSITORY SIGNALS</text>
+<text x="24" y="79" fill="#b2c5db" font-size="16" font-weight="400">Last updated: Not collected yet</text>
+<text x="24" y="108" fill="#b2c5db" font-size="16" font-weight="400">Public canonical repos + this README repository.</text>
+<text x="24" y="134" fill="#b2c5db" font-size="16" font-weight="400">Not profile-page views or direct-click tracking.</text>
+<g><title>orpaynter/me</title>
+<rect x="24" y="154" width="432" height="192" rx="10" fill="#16263b" stroke="#59718b"/>
+<text x="38" y="183" fill="#f0f6ff" font-size="18" font-weight="600">orpaynter/me</text>
+<text x="38" y="209" fill="#b2c5db" font-size="15" font-weight="400">Not collected yet</text>
+<text x="38" y="239" fill="#f0f6ff" font-size="20" font-weight="600">Views: not collected</text>
+<text x="38" y="265" fill="#b2c5db" font-size="16" font-weight="400">Daily uniques: unavailable</text>
+
+<text x="38" y="332" fill="#b2c5db" font-size="15" font-weight="400">0/14 UTC days recorded</text>
+</g>
+<text x="24" y="384" fill="#f0f6ff" font-size="20" font-weight="700">TOP REFERRERS</text>
+<text x="24" y="411" fill="#b2c5db" font-size="16" font-weight="400">Latest available API period per repository.</text>
+<text x="24" y="436" fill="#b2c5db" font-size="16" font-weight="400">Ranked by views, not combined unique people.</text>
+<text x="24" y="479" fill="#b2c5db" font-size="16" font-weight="400">Not collected yet</text>
+<text x="24" y="585" fill="#b2c5db" font-size="16" font-weight="400">14-day sparkline: recorded repository views.</text>
+<text x="24" y="610" fill="#b2c5db" font-size="16" font-weight="400">Missing days are not invented zeros.</text>
+<text x="24" y="635" fill="#b2c5db" font-size="16" font-weight="400">Partial failures keep prior observations.</text>
+<text x="24" y="660" fill="#b2c5db" font-size="16" font-weight="400">Cached history cannot verify current visibility.</text>
+</g></svg>

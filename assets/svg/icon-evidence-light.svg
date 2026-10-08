@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence — retain the sources</title><desc id="desc">Two overlapping source files with an image and linked evidence marks.</desc>
+  <style>@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="#e6eef6" stroke="#71869c"/>
+  <g fill="none" stroke="#086f62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14H39V42H15ZM25 42V51H49V23H39M20 34L26 27L32 34H35M32 45H43"/><circle cx="32" cy="22" r="2"/></g>
+</svg>

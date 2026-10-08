@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" role="img" aria-labelledby="title desc">
+  <title id="title">ClaimFlow — mobile workflow</title>
+  <desc id="desc">Four stacked steps: Intake, Evidence-linked draft, Human gate, Locked Decision Package. A lock marks the named human's control. Decorative packets approach but never bypass this gate. Reduced motion disables animation.</desc>
+  <style>
+    svg{--bg:#101b2b;--panel:#16263b;--ink:#f0f6ff;--muted:#b2c5db;--line:#59718b;--accent:#71dfc6;--gold:#f6c779;font-family:Arial,Helvetica,sans-serif}
+    .packet{animation:packet 4s ease-in-out infinite}
+    @keyframes packet{0%,100%{transform:translateY(0);opacity:0}20%{opacity:1}70%{transform:translateY(199px);opacity:1}85%{transform:translateY(199px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.packet{opacity:1}}
+  </style>
+  <rect width="400" height="620" rx="20" fill="var(--bg)"/>
+  <text x="24" y="38" font-size="16" letter-spacing="2" fill="var(--muted)">CLAIMFLOW / HUMAN-GOVERNED</text>
+  <path d="M24 123H13V329H49M49 183V199M49 321V337M49 459V475" fill="none" stroke="var(--line)" stroke-width="2"/>
+  <g fill="var(--panel)" stroke="var(--line)"><rect x="24" y="61" width="352" height="122" rx="12"/><rect x="24" y="199" width="352" height="122" rx="12"/><rect x="24" y="337" width="352" height="122" rx="12"/><rect x="24" y="475" width="352" height="100" rx="12"/></g>
+  <rect class="packet" x="9" y="126" width="8" height="8" rx="2" fill="var(--accent)"/>
+  <g fill="var(--accent)" font-size="16" font-weight="700"><text x="42" y="94">01</text><text x="42" y="232">02</text><text x="42" y="370" fill="var(--gold)">03</text><text x="42" y="508">04</text></g>
+  <g fill="var(--ink)" font-size="23" font-weight="700"><text x="82" y="95">Intake</text><text x="82" y="233">Evidence-linked</text><text x="82" y="261">draft</text><text x="82" y="371">Human gate</text><text x="82" y="509">Locked</text><text x="82" y="537">Decision Package</text></g>
+  <g fill="var(--muted)" font-size="17"><text x="82" y="127">Photos · files · notes</text><text x="82" y="154">Keep the claim context</text><text x="82" y="295">Sources and gaps stay visible</text><text x="82" y="403">Approve · reject · return</text><text x="82" y="433" fill="var(--gold)">A named human decides</text><text x="82" y="560">Decision · reviewer · evidence</text></g>
+  <path d="M335 370V361A9 9 0 0 1 353 361V370M331 370H357V391H331Z" fill="none" stroke="var(--gold)" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="var(--accent)" stroke-width="2"><path d="M44 187L49 192L54 187M44 325L49 330L54 325M44 463L49 468L54 463"/></g>
+  <text x="24" y="602" fill="var(--muted)" font-size="16">AI drafts. A human authorizes the outcome.</text>
+</svg>
