@@ -1,0 +1,5 @@
+**/.browser-profile/
+site/.browser-state/
+site/.browser-cache/
+site/.scratch/
+site/.validation-deployment/

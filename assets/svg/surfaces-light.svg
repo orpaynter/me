@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-labelledby="title desc">
+  <title id="title">One system. Four controlled surfaces.</title>
+  <desc id="desc">Web sells: explains the product. ClaimFlow proves: evidence-linked review work. ORPA controls: identity-bound human gate. DecisionPackage verifies: preserves the decision and its context. These are product roles, not performance claims.</desc>
+  <style>svg{--bg:#f4f8fc;--panel:#e6eef6;--ink:#14263a;--muted:#405975;--line:#71869c;--accent:#086f62;--gold:#925b12;font-family:Arial,Helvetica,sans-serif}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect width="760" height="350" rx="20" fill="var(--bg)"/>
+  <text x="28" y="39" font-size="21" font-weight="700" fill="var(--ink)">One system. Four controlled surfaces.</text>
+  <g fill="var(--panel)" stroke="var(--line)"><rect x="24" y="62" width="347" height="117" rx="12"/><rect x="389" y="62" width="347" height="117" rx="12"/><rect x="24" y="197" width="347" height="129" rx="12"/><rect x="389" y="197" width="347" height="129" rx="12"/></g>
+  <g fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 84H77V111H44ZM44 92H77M50 88H51M55 88H56"/>
+    <path d="M410 83H434V110H410ZM438 91H447V116H421M417 97L422 102L430 93"/>
+    <path d="M48 232V222A10 10 0 0 1 68 222V232M43 232H73V256H43Z" stroke="var(--gold)"/>
+    <path d="M411 216H444V251H411ZM411 225H444M419 237L425 243L437 231"/>
+  </g>
+  <g fill="var(--ink)" font-size="25" font-weight="700"><text x="91" y="106">Web sells</text><text x="458" y="106">ClaimFlow proves</text><text x="91" y="242">ORPA controls</text><text x="410" y="282" font-size="23">DecisionPackage verifies</text></g>
+  <g fill="var(--muted)" font-size="18"><text x="44" y="143">Explains product and proof boundary</text><text x="410" y="143">Evidence-linked, review-ready work</text><text x="44" y="282">Identity-bound human gate</text><text x="410" y="309">Decision · authority · evidence</text><text x="44" y="309">Approve · reject · return</text></g>
+  <text x="458" y="239" font-size="15" letter-spacing="1" fill="var(--accent)">RECONSTRUCTABLE RECORD</text>
+</svg>

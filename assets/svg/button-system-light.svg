@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" role="img" aria-labelledby="title desc">
+  <title id="title">See the system</title><desc id="desc">Link artwork for exploring the OrPaynter system. The embedding page provides the link.</desc>
+  <style>svg{font-family:Arial,Helvetica,sans-serif}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect x="1" y="1" width="238" height="54" rx="12" fill="#e6eef6" stroke="#086f62" stroke-width="1.5"/>
+  <path d="M18 27L28 19L38 27M22 24V37H34V24" fill="none" stroke="#086f62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="51" y="35" font-size="19" font-weight="700" fill="#14263a">See the system</text>
+  <path d="M212 23L218 28L212 33M205 28H218" fill="none" stroke="#086f62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

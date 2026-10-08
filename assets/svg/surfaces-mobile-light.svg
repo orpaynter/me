@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 548" role="img" aria-labelledby="title desc">
+  <title id="title">One system. Four controlled surfaces — mobile</title>
+  <desc id="desc">Web sells. ClaimFlow proves. ORPA controls. DecisionPackage verifies. Four stacked cards explain the public, workflow, human control, and record surfaces without performance claims.</desc>
+  <style>svg{--bg:#f4f8fc;--panel:#e6eef6;--ink:#14263a;--muted:#405975;--line:#71869c;--accent:#086f62;--gold:#925b12;font-family:Arial,Helvetica,sans-serif}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <rect width="400" height="548" rx="20" fill="var(--bg)"/>
+  <text x="24" y="38" font-size="21" font-weight="700" fill="var(--ink)">One system.</text>
+  <text x="24" y="67" font-size="21" font-weight="700" fill="var(--ink)">Four controlled surfaces.</text>
+  <g fill="var(--panel)" stroke="var(--line)"><rect x="24" y="90" width="352" height="96" rx="12"/><rect x="24" y="202" width="352" height="96" rx="12"/><rect x="24" y="314" width="352" height="96" rx="12"/><rect x="24" y="426" width="352" height="98" rx="12"/></g>
+  <g fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M41 108H63V126H41ZM41 114H63M42 218H59V241H42ZM47 229L52 234L61 224M42 348V340A9 9 0 0 1 60 340V348M39 348H63V367H39Z"/><path d="M42 442H64V463H42ZM42 448H64M48 455L52 459L59 452"/></g>
+  <g fill="var(--ink)" font-size="23" font-weight="700"><text x="80" y="125">Web sells</text><text x="80" y="237">ClaimFlow proves</text><text x="80" y="349">ORPA controls</text><text x="80" y="460" font-size="21">DecisionPackage verifies</text></g>
+  <g fill="var(--muted)" font-size="17"><text x="42" y="157">Product · workflow · proof boundary</text><text x="42" y="269">Evidence-linked, review-ready work</text><text x="80" y="378" fill="var(--gold)">Identity-bound human gate</text><text x="42" y="495">Decision · authority · evidence</text></g>
+</svg>

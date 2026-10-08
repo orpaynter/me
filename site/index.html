@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Oliver Paynter — roofer first, building governed AI systems from real field work. AI drafts. You govern.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23172b2c'/%3E%3Cpath d='M5 17 16 7 27 17M9 14v11h14V14' fill='none' stroke='%23d5f26b' stroke-width='2'/%3E%3C/svg%3E">
+  <title>Oliver Paynter · AI drafts. You govern.</title>
+  <style>
+    :root{--bg:#f6f4ec;--ink:#172b2c;--muted:#4d6261;--card:#fffef9;--line:#ccd6cc;--accent:#d5f26b;--accent-ink:#172b2c;--link:#245850;--grid:rgba(23,43,44,.045);--shadow:0 16px 50px rgba(23,43,44,.07)}
+    @media(prefers-color-scheme:dark){:root{--bg:#101e21;--ink:#edf3e8;--muted:#aabdb6;--card:#172a2d;--line:#36504e;--accent:#d5f26b;--accent-ink:#172b2c;--link:#d5f26b;--grid:rgba(237,243,232,.035);--shadow:0 16px 50px rgba(0,0,0,.15)}}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--link);text-underline-offset:.2em}a:hover{text-decoration-thickness:2px}button,summary,a{-webkit-tap-highlight-color:transparent}button{font:inherit}
+    :focus-visible{outline:3px solid var(--link);outline-offset:5px}img{max-width:100%;height:auto;display:block}picture{display:block}
+    h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.08;letter-spacing:-.04em}h1{font-size:clamp(3rem,5.8vw,5.5rem);font-weight:750;margin-bottom:1.5rem}h2{font-size:clamp(2.1rem,4.5vw,4rem);margin-bottom:1.4rem}h3{font-size:1.4rem}
+    .wrap{width:min(1240px,calc(100% - 64px));margin:auto}.skip{position:absolute;top:8px;left:8px;transform:translateY(-200%);z-index:5;background:var(--accent);color:var(--accent-ink);padding:12px}.skip:focus{transform:none}
+    .masthead{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-.04em;text-decoration:none;color:var(--ink);font-size:1.35rem}.brand span{font-weight:400;color:var(--muted)}
+    nav{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:.85rem}nav a{text-decoration:none}
+    .eyebrow{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;font-weight:750;color:var(--muted);margin-bottom:20px}.eyebrow:before{content:"";display:inline-block;width:8px;height:8px;background:var(--link);margin-right:10px}
+    .hero{padding:70px 0 48px;display:grid;grid-template-columns:1.07fr 1fr;gap:35px;align-items:center}.hero h1 span{display:block;color:var(--muted)}.intro{font-size:1.15rem;max-width:55ch}.hero-art{position:relative;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card);box-shadow:var(--shadow)}.hero-art picture{padding:8px}.art-caption{border-top:1px solid var(--line);padding:14px 20px;font-size:.75rem;color:var(--muted)}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}.button{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:12px 20px;border:1px solid var(--line);border-radius:5px;text-decoration:none;font-size:.9rem;font-weight:700;background:var(--card);color:var(--ink);min-height:48px}.button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.button:hover{box-shadow:var(--shadow)}.button:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+    .hero-links{font-size:.85rem;display:flex;flex-wrap:wrap;gap:12px 24px}.statement{display:flex;gap:24px;justify-content:space-between;align-items:center;padding:25px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:clamp(1.3rem,3vw,2.2rem);font-weight:750;letter-spacing:-.035em}.statement small{font-size:.7rem;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+    section{padding:70px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-bottom:30px}.section-head p{color:var(--muted);max-width:60ch}.section-head h2{margin-bottom:0}
+    .diagram{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:10px;margin:26px 0}.demo{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}.demo-label{padding:14px 24px;background:var(--accent);color:var(--accent-ink);font-size:.8rem;font-weight:650}.demo-label strong{letter-spacing:.06em;text-transform:uppercase}
+    .steps{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--line)}.step{position:relative;border:0;border-right:1px solid var(--line);background:transparent;color:var(--muted);padding:24px 16px;text-align:left;cursor:pointer;min-height:120px}.step:last-child{border-right:0}.step[aria-selected=true]{background:var(--ink);color:var(--bg)}.step[aria-selected=true]:after{content:"";position:absolute;height:4px;background:var(--accent);bottom:0;left:0;right:0}.step:focus-visible{outline-offset:-6px;outline-color:var(--link)}.step[aria-selected=true]:focus-visible{outline-color:var(--accent)}.step b{display:block;font-size:.75rem;letter-spacing:.1em;margin-bottom:12px}.step span{font-size:.9rem;font-weight:700}
+    .step-panel{padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center;min-height:250px}.step-panel h3{font-size:2rem}.step-panel p{margin-bottom:0}.specimen{padding:22px;border:1px dashed var(--line);border-radius:8px;background:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:20px 20px}.specimen .eyebrow{margin-bottom:12px}.specimen strong{display:block;font-size:1.2rem}.specimen p{font-size:.85rem;color:var(--muted)}
+    .demo-controls{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 32px 25px}.demo-controls p{font-size:.8rem;color:var(--muted);margin:0}.control-buttons{display:flex;gap:10px}.sequence{font-weight:650;text-align:center;font-size:.9rem;margin:24px 0 0}
+    .surface-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.surface{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:26px 22px;transition:transform .2s,border-color .2s;display:block;text-decoration:none;color:var(--ink)}.surface:hover,.surface:focus-visible{transform:translateY(-5px);border-color:var(--link)}.surface .number{font-size:.75rem;color:var(--muted);display:block;margin-bottom:28px}.surface p{font-size:.9rem;color:var(--muted);margin-bottom:24px}.surface .inspect{font-size:.8rem;font-weight:750;color:var(--link)}.surface h3{overflow-wrap:anywhere}
+    blockquote{margin:0 0 28px;font-size:clamp(1.3rem,2.8vw,2rem);font-weight:700;letter-spacing:-.025em;line-height:1.3}.note{font-size:.95rem;color:var(--muted);max-width:85ch;margin:28px 0 0}
+    .build-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.repo{border:1px solid var(--line);background:var(--card);padding:20px 24px;border-radius:8px}.repo a,.repo-name{font-weight:750;overflow-wrap:anywhere}.repo p{margin:10px 0;font-size:.9rem;color:var(--muted)}.verification{display:block;font-size:.75rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+    .law-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}.law-grid .lead{color:var(--muted)}details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px solid var(--line)}summary{list-style:none;display:flex;align-items:baseline;gap:18px;padding:22px 0;font-weight:650;cursor:pointer;line-height:1.5}summary::-webkit-details-marker{display:none}summary .law-number{font-size:.75rem;color:var(--muted);flex-shrink:0}summary:after{content:"+";margin-left:auto;font-weight:400;font-size:1.5rem;flex-shrink:0}details[open] summary:after{content:"−"}details p{font-size:.9rem;color:var(--muted);padding-left:37px;margin:0 0 22px}
+    .proof-table{width:100%;border-collapse:collapse;font-size:.95rem}.proof-table th{text-align:left;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:15px 20px;border-bottom:2px solid var(--line)}.proof-table td{padding:20px;border-bottom:1px solid var(--line)}.proof-table td:first-child{font-weight:650;width:30%}.proof-table tbody tr:hover{background:var(--card)}
+    .company-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.company{padding:30px;border:1px solid var(--line);border-radius:10px;background:var(--card)}.company h3{font-size:1.65rem}.company p{margin-bottom:0;color:var(--muted)}
+    .closing{border-bottom:0;padding:80px 0}.closing h2{max-width:18ch}.closing p{max-width:75ch;color:var(--muted)}.closing .rally{font-weight:750;font-size:1.3rem;color:var(--ink)}footer{border-top:1px solid var(--line);padding:25px 0 32px;display:flex;gap:24px;justify-content:space-between;color:var(--muted);font-size:.8rem}
+    @media(max-width:1000px){.hero{grid-template-columns:1fr 1fr;gap:24px}.surface-grid{grid-template-columns:repeat(2,1fr)}.repo{display:block}.repo p{margin-top:10px}.law-grid{gap:30px}}
+    @media(max-width:700px){.wrap{width:calc(100% - 36px)}.masthead{align-items:flex-start;flex-direction:column;gap:14px;padding:20px 0}nav{gap:12px 20px}.hero{grid-template-columns:1fr;padding-top:40px}.hero-art{margin-top:10px}.statement{align-items:flex-start;flex-direction:column;gap:8px}.section-head,.law-grid,.step-panel,.company-grid{grid-template-columns:1fr;gap:22px}section{padding:48px 0}.steps{grid-template-columns:1fr}.step{padding:14px 20px;min-height:56px;border-right:0;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:center}.step:last-child{border-bottom:0}.step b{margin:0}.step-panel{padding:24px;min-height:0}.demo-controls{padding:0 24px 24px;align-items:flex-start;flex-direction:column}.surface-grid,.build-grid{grid-template-columns:1fr}.surface .number{margin-bottom:18px}.proof-table th,.proof-table td{padding:14px 8px;overflow-wrap:anywhere}.proof-table td:first-child{width:35%}.closing{padding:50px 0}footer{flex-direction:column;gap:12px}.diagram{padding:4px}}
+    @media(max-width:600px){.pipeline img{aspect-ratio:400/620;width:100%;height:auto}.hero-art img{aspect-ratio:400/430;width:100%;height:auto}.surfaces-diagram img{aspect-ratio:400/548;width:100%;height:auto}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.surface:hover,.surface:focus-visible{transform:none}}
+    @media print{nav,.demo-controls{display:none}.wrap{width:100%}section{break-inside:avoid}body{font-size:11pt}.hero{padding:20px 0}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="masthead">
+      <a class="brand" href="https://github.com/orpaynter/me">Oliver Paynter<span> / OrPaynter</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#workflow">The workflow</a><a href="#surfaces">The system</a><a href="#operating-law">Operating law</a><a href="#proof">Proof boundary</a>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="hero">
+        <div>
+          <p class="eyebrow">Founder / CEO, <a href="https://github.com/Orpaynter-Inc">OrPaynter, Inc.</a></p>
+          <h1>From one roof <span>to governed AI systems.</span></h1>
+          <p class="intro"><strong>Roofer first.</strong> Building governed AI systems from real field work.</p>
+          <p>OrPaynter starts with a real roofing workflow: a claim arrives messy, evidence gets organized, gaps stay visible, and a named human controls the gate.</p>
+          <div class="actions">
+            <a class="button primary" href="https://orpaynter.ai">Open OrPaynter <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://orpaynter.ai/claimflow">Explore ClaimFlow <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-links"><a href="https://github.com/Orpaynter-Inc">Company GitHub</a><a href="mailto:Ov@OrPaynter.com">Email Oliver</a></div>
+        </div>
+        <figure class="hero-art" style="margin:0">
+          <picture>
+            <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/svg/hero-mobile.svg">
+            <source media="(max-width: 600px)" srcset="assets/svg/hero-mobile-light.svg">
+            <source media="(prefers-color-scheme: dark)" srcset="assets/svg/hero.svg">
+            <img src="assets/svg/hero-light.svg" alt="From a roof and field evidence to a governed system with a human decision gate" width="800" height="440" fetchpriority="high">
+          </picture>
+          <figcaption class="art-caption">FIELD WORK → EVIDENCE → HUMAN CONTROL</figcaption>
+        </figure>
+      </div>
+      <div class="statement"><span>AI drafts. You govern.</span><small>Built on Trust. Powered by AI.</small></div>
+
+      <section id="workflow" aria-labelledby="workflow-heading">
+        <div class="section-head">
+          <div><p class="eyebrow">01 / Grounded in field work</p><h2 id="workflow-heading">Start with<br>the roof.</h2></div>
+          <p>Photos, estimates, weather, notes, and job files rarely arrive as one clean package. ClaimFlow turns that scattered information into structured, review-ready work without silently expanding the machine's authority.</p>
+        </div>
+        <picture class="diagram pipeline">
+          <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/svg/claimflow-pipeline-mobile.svg">
+          <source media="(max-width: 600px)" srcset="assets/svg/claimflow-pipeline-mobile-light.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="assets/svg/claimflow-pipeline.svg">
+          <img src="assets/svg/claimflow-pipeline-light.svg" alt="ClaimFlow: intake, evidence-linked draft, human gate, and locked Decision Package" width="1000" height="270" loading="lazy">
+        </picture>
+        <div class="demo" aria-label="Synthetic workflow demonstration">
+          <p class="demo-label" style="margin:0"><strong>Synthetic demonstration</strong> · Inspect a workflow, not a real claim. No actual authority, approval, or customer action.</p>
+          <div class="steps" role="tablist" aria-label="Workflow steps" aria-orientation="horizontal">
+            <button class="step" type="button" role="tab" id="step-0" aria-controls="step-panel" aria-selected="true" tabindex="0"><b>01</b><span>Gather evidence</span></button>
+            <button class="step" type="button" role="tab" id="step-1" aria-controls="step-panel" aria-selected="false" tabindex="-1"><b>02</b><span>Reason</span></button>
+            <button class="step" type="button" role="tab" id="step-2" aria-controls="step-panel" aria-selected="false" tabindex="-1"><b>03</b><span>Gate actions</span></button>
+            <button class="step" type="button" role="tab" id="step-3" aria-controls="step-panel" aria-selected="false" tabindex="-1"><b>04</b><span>Record proof</span></button>
+            <button class="step" type="button" role="tab" id="step-4" aria-controls="step-panel" aria-selected="false" tabindex="-1"><b>05</b><span>Learn safely</span></button>
+          </div>
+          <div class="step-panel" id="step-panel" role="tabpanel" aria-labelledby="step-0" tabindex="0">
+            <div><p class="eyebrow" id="stage-type">Evidence / Intake</p><h3 id="stage-title">Gather evidence</h3><p id="stage-control">Bring photos, files, notes, and claim context into one case.</p></div>
+            <div class="specimen"><p class="eyebrow">Illustrative state · Not evidence</p><strong id="stage-state">Scattered inputs → one case</strong><p id="stage-boundary">Synthetic photos, notes, and files illustrate intake. No real job or validated evidence is represented.</p></div>
+          </div>
+          <div class="demo-controls">
+            <p id="step-status" role="status" aria-live="polite" aria-atomic="true">Demonstration step 1 of 5. Use arrow keys, Home, or End on the step buttons.</p>
+            <div class="control-buttons"><button class="button" type="button" id="previous" disabled aria-label="Previous demonstration step">← Previous</button><button class="button" type="button" id="next" aria-label="Next demonstration step">Next →</button></div>
+          </div>
+        </div>
+        <noscript><p>This demonstration needs JavaScript for step selection. The controls remain: AI organizes an evidence-linked draft; a named human reviews, approves, rejects, or returns the work; the decision, reviewer, evidence, and context stay together; the system can improve without granting itself more authority.</p></noscript>
+        <p class="sequence"><strong>ClaimFlow:</strong> intake → evidence-linked draft → human gate → locked Decision Package.</p>
+      </section>
+
+      <section id="surfaces" aria-labelledby="surfaces-heading">
+        <p class="eyebrow">02 / Bounded by design</p>
+        <h2 id="surfaces-heading">One system.<br>Four controlled surfaces.</h2>
+        <blockquote>Web sells. ClaimFlow proves. ORPA controls. DecisionPackage verifies.</blockquote>
+        <picture class="diagram surfaces-diagram">
+          <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/svg/surfaces-mobile.svg">
+          <source media="(max-width: 600px)" srcset="assets/svg/surfaces-mobile-light.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="assets/svg/surfaces.svg">
+          <img src="assets/svg/surfaces-light.svg" alt="Four controlled surfaces: Web explains, ClaimFlow organizes, ORPA gives humans control, and DecisionPackage preserves the decision record" width="760" height="350" loading="lazy">
+        </picture>
+        <div class="surface-grid">
+          <a class="surface" href="https://orpaynter.ai"><span class="number">01 / PUBLIC SURFACE</span><h3>Web</h3><p>Explains the product, the workflow, and the proof boundary.</p><span class="inspect">Explore the website ↗</span></a>
+          <a class="surface" href="https://orpaynter.ai/claimflow"><span class="number">02 / CASE WORK</span><h3>ClaimFlow</h3><p>Organizes a messy claim into evidence-linked, review-ready work.</p><span class="inspect">Explore ClaimFlow ↗</span></a>
+          <a class="surface" href="#operating-law"><span class="number">03 / HUMAN CONTROL</span><h3>ORPA</h3><p>Gives an identity-bound human the approve / reject control surface.</p><span class="inspect">Inspect the operating law ↓</span></a>
+          <a class="surface" href="#proof"><span class="number">04 / DECISION RECORD</span><h3>DecisionPackage</h3><p>Preserves who decided what, from which evidence, and when.</p><span class="inspect">Inspect the proof boundary ↓</span></a>
+        </div>
+        <p class="note">The objective is not autonomous authority. It is a controlled, auditable operating loop that helps people move faster while remaining responsible for consequential decisions.</p>
+      </section>
+
+      <section id="build-map" aria-labelledby="build-heading">
+        <div class="section-head">
+          <div><p class="eyebrow">03 / The build trail</p><h2 id="build-heading">Canonical<br>build map.</h2></div>
+          <p>These repositories define the current direction. Other repositories on this account may be experiments, upstream tools, tutorials, or historical work.</p>
+        </div>
+        <div class="build-grid">
+          <div class="repo"><strong class="repo-name">AIA</strong><p>ClaimFlow intelligence and authority backend.</p><small class="verification">Canonical · Not publicly verified. Link withheld.</small></div>
+          <div class="repo"><strong class="repo-name">claimflow</strong><p>Shared case state machine and governed claim flow.</p><small class="verification">Canonical · Not publicly verified. Link withheld.</small></div>
+          <div class="repo"><strong class="repo-name">orpa</strong><p>Identity-bound operator control surface.</p><small class="verification">Canonical · Not publicly verified. Link withheld.</small></div>
+          <div class="repo"><strong class="repo-name">orpaynter-web</strong><p>Public site, ClaimFlow demo, OS preview, and verification surfaces.</p><small class="verification">Canonical · Not publicly verified. Link withheld.</small></div>
+          <div class="repo"><a href="https://github.com/orpaynter/claimflow-app">claimflow-app ↗</a><p>Installable ClaimFlow phone app exploration; does not replace the canonical flow.</p><small class="verification">Experimental · Public, non-fork repository. Visibility does not prove production readiness.</small></div>
+          <div class="repo"><a href="https://github.com/orpaynter/orpaynter-Overlay">orpaynter-Overlay ↗</a><p>World Portal and bounded analysis; derivative of OSIRIS with upstream credit.</p><small class="verification">Upstream fork / derivative · GitHub reports fork=false; its README identifies OSIRIS-derived work. Excluded from canonical activity.</small></div>
+        </div>
+        <p class="note">Visibility checked 8 October 2026. The four canonical repositories were not publicly verified; GitHub returned 404. See the <a href="https://github.com/orpaynter/me#canonical-build-map">profile repository map</a> for the maintained build trail.</p>
+        <p class="note"><strong>How to read this account:</strong> company identity defines who we are; the canonical repositories define what the product does; real jobs and tests define what works. A newer demo does not outrank evidence.</p>
+      </section>
+
+      <section id="operating-law" aria-labelledby="law-heading">
+        <div class="law-grid">
+          <div><p class="eyebrow">04 / Non-negotiable</p><h2 id="law-heading">Operating law.</h2><p class="lead">Five constraints. No quiet expansion of authority.</p><p class="lead">Open each law to inspect how this companion page respects it.</p></div>
+          <div>
+            <details><summary><span class="law-number" aria-hidden="true">01</span><span>The system drafts. A named human approves.</span></summary><p>This page demonstrates the gate; it cannot approve work. A selected step is only a view.</p></details>
+            <details><summary><span class="law-number" aria-hidden="true">02</span><span>Agents may become more capable. They may never give themselves more authority.</span></summary><p>Moving through this demonstration does not grant the page or an agent permission to act.</p></details>
+            <details><summary><span class="law-number" aria-hidden="true">03</span><span>Money-facing and customer-facing actions require evidence and a reconstructable Decision Package.</span></summary><p>No money-facing or customer-facing action runs here. The illustrated record is not a real Decision Package.</p></details>
+            <details><summary><span class="law-number" aria-hidden="true">04</span><span>Synthetic demonstrations are labeled as synthetic.</span></summary><p>The stepper and its illustrative states are explicitly synthetic, not real case data.</p></details>
+            <details><summary><span class="law-number" aria-hidden="true">05</span><span>No accuracy, ROI, certification, production, or customer claims without proof from real work.</span></summary><p>This page makes no such claims. A polished interface is not proof of a real-world outcome.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section id="proof" aria-labelledby="proof-heading">
+        <div class="section-head">
+          <div><p class="eyebrow">05 / Inspect, don't assume</p><h2 id="proof-heading">Proof boundary.</h2></div>
+          <p>The question is not whether the software looks impressive. The question is whether a person can inspect the evidence, own the decision, and stand behind it later.</p>
+        </div>
+        <table class="proof-table">
+          <caption class="eyebrow" style="text-align:left">What a surface can—and cannot—prove</caption>
+          <thead><tr><th scope="col">What you see</th><th scope="col">What it proves</th></tr></thead>
+          <tbody>
+            <tr><td>Live page</td><td>The public surface loads.</td></tr>
+            <tr><td>Interactive demo</td><td>The workflow can be inspected with synthetic data.</td></tr>
+            <tr><td>Agent output</td><td>Automation prepared work; it did not authorize the outcome.</td></tr>
+            <tr><td>Decision Package</td><td>The decision, authority, evidence, and context can be reconstructed.</td></tr>
+            <tr><td>Real job + named reviewer</td><td>The standard that matters.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="company" aria-labelledby="company-heading">
+        <p class="eyebrow">06 / Separate entities. Shared roots.</p><h2 id="company-heading">Company boundary.</h2>
+        <div class="company-grid">
+          <div class="company"><h3>OrPaynter, Inc.</h3><p><strong>OrPaynter, Inc.</strong> is the software company.</p></div>
+          <div class="company"><h3>Oliver's Roofing &amp; Contracting</h3><p><strong>Oliver's Roofing &amp; Contracting</strong> is the trade company and real-world domain foundation. Roofing experience informs the product; the companies are separate entities.</p></div>
+        </div>
+        <p class="note">The company face is <a href="https://github.com/Orpaynter-Inc">Orpaynter-Inc</a>. This <code>orpaynter</code> account remains the founder and build trail while canonical repositories are prepared for transfer.</p>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-heading">
+        <p class="eyebrow">07 / Keep a human accountable</p><h2 id="closing-heading">Build with us.</h2>
+        <p>If you work in roofing, claims, field operations, insurance, or governed AI—and you believe faster systems should still leave a human clearly accountable—I want to hear from you.</p>
+        <p class="rally">Stop drowning in claims. Start closing them.</p>
+        <div class="actions"><a class="button primary" href="https://orpaynter.ai">See the system ↗</a><a class="button" href="https://orpaynter.ai/claimflow">Run ClaimFlow ↗</a><a class="button" href="mailto:Ov@OrPaynter.com">Talk to Oliver ↗</a></div>
+      </section>
+    </main>
+    <footer><span>OrPaynter, Inc. · Built on Trust. Powered by AI. · AI drafts. You govern.</span><a href="https://github.com/orpaynter/me">Back to the founder profile ↗</a></footer>
+  </div>
+  <script>
+    (() => {
+      const stages = [
+        {title:"Gather evidence",type:"Evidence / Intake",control:"Bring photos, files, notes, and claim context into one case.",state:"Scattered inputs → one case",boundary:"Synthetic photos, notes, and files illustrate intake. No real job or validated evidence is represented."},
+        {title:"Reason",type:"Preparation / Draft",control:"AI organizes the mess and prepares an evidence-linked draft.",state:"Organized inputs → review-ready draft",boundary:"Illustrative draft only. Evidence gaps stay visible; an agent's output does not authorize the outcome."},
+        {title:"Gate actions",type:"Authority / Named human",control:"A named human reviews, approves, rejects, or returns the work.",state:"Human gate → decision required",boundary:"Synthetic gate only. No named reviewer is impersonated; selecting this step approves nothing and grants no authority."},
+        {title:"Record proof",type:"Record / Decision Package",control:"The decision, reviewer, evidence, and context stay together.",state:"Decision + reviewer + evidence + context",boundary:"Illustrative record only, not a real locked Decision Package. No actual decision or verified evidence is asserted."},
+        {title:"Learn safely",type:"Learning / Bounded improvement",control:"The system can improve without granting itself more authority.",state:"Improve capability ≠ expand authority",boundary:"Synthetic learning step. No automated learning or authority change occurs on this page."}
+      ];
+      const tabs = [...document.querySelectorAll('[role="tab"]')];
+      const panel = document.getElementById("step-panel");
+      const previous = document.getElementById("previous");
+      const next = document.getElementById("next");
+      let current = 0;
+      function select(index, focus = false) {
+        current = index;
+        tabs.forEach((tab, i) => {
+          tab.setAttribute("aria-selected", String(i === index));
+          tab.tabIndex = i === index ? 0 : -1;
+        });
+        const stage = stages[index];
+        for (const [id, value] of Object.entries({ "stage-title":stage.title, "stage-type":stage.type, "stage-control":stage.control, "stage-state":stage.state, "stage-boundary":stage.boundary })) {
+          document.getElementById(id).textContent = value;
+        }
+        panel.setAttribute("aria-labelledby", tabs[index].id);
+        panel.getAnimations().forEach(animation => animation.cancel());
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          panel.animate([{opacity:.4, transform:"translateY(8px)"}, {opacity:1, transform:"translateY(0)"}], {duration:220, easing:"ease-out"});
+        }
+        previous.disabled = index === 0;
+        next.disabled = index === stages.length - 1;
+        document.getElementById("step-status").textContent = `Demonstration step ${index + 1} of 5: ${stage.title}. Synthetic only; no actual authority.`;
+        if (focus) tabs[index].focus();
+      }
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => select(index));
+        tab.addEventListener("keydown", event => {
+          let target;
+          if (event.key === "ArrowRight" || event.key === "ArrowDown") target = (current + 1) % tabs.length;
+          if (event.key === "ArrowLeft" || event.key === "ArrowUp") target = (current + tabs.length - 1) % tabs.length;
+          if (event.key === "Home") target = 0;
+          if (event.key === "End") target = tabs.length - 1;
+          if (target !== undefined) { event.preventDefault(); select(target, true); }
+        });
+      });
+      previous.addEventListener("click", () => select(Math.max(0, current - 1), true));
+      next.addEventListener("click", () => select(Math.min(stages.length - 1, current + 1), true));
+      const mobile = window.matchMedia("(max-width: 700px)");
+      function orient() { document.querySelector('[role="tablist"]').setAttribute("aria-orientation", mobile.matches ? "vertical" : "horizontal"); }
+      orient();
+      mobile.addEventListener("change", orient);
+    })();
+  </script>
+</body>
+</html>

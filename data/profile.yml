@@ -1,0 +1,78 @@
+{
+  "owner": "orpaynter",
+  "profileRepository": "me",
+  "links": {
+    "system": "https://orpaynter.ai",
+    "claimflow": "https://orpaynter.ai/claimflow",
+    "company": "https://github.com/Orpaynter-Inc",
+    "contact": "mailto:Ov@OrPaynter.com",
+    "interactive": "https://orpaynter.github.io/me/"
+  },
+  "tracking": {
+    "enabled": true,
+    "source": "github",
+    "medium": "profile_readme"
+  },
+  "repositories": [
+    {
+      "owner": "orpaynter",
+      "name": "AIA",
+      "role": "ClaimFlow intelligence and authority backend.",
+      "status": "canonical",
+      "public": false,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Not publicly verified: GitHub returned 404. Link withheld."
+    },
+    {
+      "owner": "orpaynter",
+      "name": "claimflow",
+      "role": "Shared case state machine and governed claim flow.",
+      "status": "canonical",
+      "public": false,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Not publicly verified: GitHub returned 404. Link withheld."
+    },
+    {
+      "owner": "orpaynter",
+      "name": "orpa",
+      "role": "Identity-bound operator control surface.",
+      "status": "canonical",
+      "public": false,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Not publicly verified: GitHub returned 404. Link withheld."
+    },
+    {
+      "owner": "orpaynter",
+      "name": "orpaynter-web",
+      "role": "Public site, ClaimFlow demo, OS preview, and verification surfaces.",
+      "status": "canonical",
+      "public": false,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Not publicly verified: GitHub returned 404. Link withheld."
+    },
+    {
+      "owner": "orpaynter",
+      "name": "claimflow-app",
+      "role": "Installable ClaimFlow phone app exploration; does not replace the canonical flow.",
+      "status": "experimental",
+      "public": true,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Public, non-fork repository. Visibility does not prove production readiness."
+    },
+    {
+      "owner": "orpaynter",
+      "name": "orpaynter-Overlay",
+      "role": "World Portal and bounded analysis; derivative of OSIRIS with upstream credit.",
+      "status": "upstream fork",
+      "public": true,
+      "fork": false,
+      "verifiedOn": "2026-10-08",
+      "note": "Public; GitHub reports fork=false, but the README identifies OSIRIS-derived work. Excluded from canonical activity."
+    }
+  ]
+}

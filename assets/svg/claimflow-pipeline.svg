@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+  <title id="title">ClaimFlow — evidence to a locked Decision Package</title>
+  <desc id="desc">Intake leads to an evidence-linked draft, a named human gate with a lock, and a locked Decision Package. Decorative packets stop at the human gate; animation does not imply automatic approval. Use the mobile variant on narrow screens.</desc>
+  <style>
+    svg{--bg:#101b2b;--panel:#16263b;--ink:#f0f6ff;--muted:#b2c5db;--line:#59718b;--accent:#71dfc6;--gold:#f6c779;font-family:Arial,Helvetica,sans-serif}
+    .packet{animation:packet 5s ease-in-out infinite}.second{animation-delay:-2.5s}.proof{animation:proof 5s ease-in-out infinite}
+    @keyframes packet{0%,100%{transform:translateX(0);opacity:0}15%{opacity:1}70%{transform:translateX(10px);opacity:1}85%{transform:translateX(10px);opacity:0}}
+    @keyframes proof{0%,100%{opacity:.55}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.packet{opacity:1}.proof{opacity:1}}
+  </style>
+  <rect width="1000" height="270" rx="20" fill="var(--bg)"/>
+  <text x="30" y="37" fill="var(--muted)" font-size="15" letter-spacing="2">CLAIMFLOW / HUMAN-GOVERNED WORKFLOW</text>
+  <path d="M135 95H630M712 95H874" fill="none" stroke="var(--line)" stroke-width="2"/>
+  <path d="M321 89L329 95L321 101M560 89L568 95L560 101M788 89L796 95L788 101" fill="none" stroke="var(--accent)" stroke-width="2"/>
+  <g fill="var(--panel)" stroke="var(--line)"><rect x="30" y="61" width="225" height="156" rx="12"/><rect x="268" y="61" width="225" height="156" rx="12"/><rect x="506" y="61" width="225" height="156" rx="12"/><rect x="744" y="61" width="225" height="156" rx="12"/></g>
+  <rect class="packet" x="255" y="92" width="6" height="6" rx="2" fill="var(--accent)"/>
+  <rect class="packet second" x="493" y="92" width="6" height="6" rx="2" fill="var(--accent)"/>
+  <g fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M119 77H153L165 89V117H119ZM153 77V89H165M128 98H153M128 106H146"/>
+    <path d="M358 88H380V110H358ZM383 81H403V102H389M365 99L370 104L380 94"/>
+    <path d="M606 92V83A13 13 0 0 1 632 83V92M601 92H637V119H601Z" stroke="var(--gold)"/>
+    <g class="proof"><path d="M838 82H876V118H838ZM838 91H876M850 102L856 108L867 97"/><path d="M851 82V76A6 6 0 0 1 863 76V82"/></g>
+  </g>
+  <g fill="var(--ink)" text-anchor="middle" font-size="21" font-weight="700"><text x="142" y="151">Intake</text><text x="380" y="148">Evidence-linked</text><text x="380" y="174">draft</text><text x="618" y="151">Human gate</text><text x="856" y="148">Locked</text><text x="856" y="174">Decision Package</text></g>
+  <g fill="var(--muted)" text-anchor="middle" font-size="15"><text x="142" y="196">Photos · files · context</text><text x="380" y="196">Sources and gaps stay visible</text><text x="618" y="180">Approve · reject · return</text><text x="618" y="201" fill="var(--gold)">A named human decides</text><text x="856" y="196">Decision · reviewer · evidence</text></g>
+  <text x="30" y="247" fill="var(--muted)" font-size="15">AI prepares work. It does not authorize the outcome.</text>
+</svg>

@@ -12,18 +12,18 @@
 <h1 align="center">Oliver Paynter</h1>
 
 <p align="center">
-  <b>Founder / CEO, <a href="https://github.com/Orpaynter-Inc">OrPaynter, Inc.</a></b><br>
+  <b>Founder / CEO, <a href="{{COMPANY_URL}}">OrPaynter, Inc.</a></b><br>
   Roofer first. Building governed AI systems from real field work.
 </p>
 
 <p align="center">
-  <a href="https://orpaynter.ai/?utm_source=github&utm_medium=profile_readme&utm_campaign=system"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-system.svg"><img src="./assets/svg/button-system-light.svg" alt="See the system" width="190"></picture></a>
-  <a href="https://orpaynter.ai/claimflow?utm_source=github&utm_medium=profile_readme&utm_campaign=claimflow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-claimflow.svg"><img src="./assets/svg/button-claimflow-light.svg" alt="Run ClaimFlow" width="190"></picture></a>
-  <a href="mailto:Ov@OrPaynter.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-contact.svg"><img src="./assets/svg/button-contact-light.svg" alt="Talk to Oliver by email" width="190"></picture></a>
+  <a href="{{SYSTEM_URL}}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-system.svg"><img src="./assets/svg/button-system-light.svg" alt="See the system" width="190"></picture></a>
+  <a href="{{CLAIMFLOW_URL}}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-claimflow.svg"><img src="./assets/svg/button-claimflow-light.svg" alt="Run ClaimFlow" width="190"></picture></a>
+  <a href="{{CONTACT_URL}}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/svg/button-contact.svg"><img src="./assets/svg/button-contact-light.svg" alt="Talk to Oliver by email" width="190"></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://orpaynter.github.io/me/"><b>Open the interactive version ↗</b></a><br>
+  <a href="{{INTERACTIVE_URL}}"><b>Open the interactive version ↗</b></a><br>
   <sub>A synthetic, inspectable companion—not a production or customer claim.</sub>
 </p>
 
@@ -87,14 +87,6 @@ The objective is not autonomous authority. It is a controlled, auditable operati
 These repositories define the current direction. Other repositories on this account may be experiments, upstream tools, tutorials, or historical work.
 
 <!-- BUILD-MAP:START -->
-| Repository | Role | Status | Visibility / evidence |
-|---|---|---|---|
-| **AIA** | ClaimFlow intelligence and authority backend. | canonical | Not publicly verified · verified 2026-10-08. Not publicly verified: GitHub returned 404. Link withheld. |
-| **claimflow** | Shared case state machine and governed claim flow. | canonical | Not publicly verified · verified 2026-10-08. Not publicly verified: GitHub returned 404. Link withheld. |
-| **orpa** | Identity-bound operator control surface. | canonical | Not publicly verified · verified 2026-10-08. Not publicly verified: GitHub returned 404. Link withheld. |
-| **orpaynter-web** | Public site, ClaimFlow demo, OS preview, and verification surfaces. | canonical | Not publicly verified · verified 2026-10-08. Not publicly verified: GitHub returned 404. Link withheld. |
-| [claimflow-app](https://github.com/orpaynter/claimflow-app) | Installable ClaimFlow phone app exploration; does not replace the canonical flow. | experimental | Public · verified 2026-10-08. Public, non-fork repository. Visibility does not prove production readiness. |
-| [orpaynter-Overlay](https://github.com/orpaynter/orpaynter-Overlay) | World Portal and bounded analysis; derivative of OSIRIS with upstream credit. | upstream fork | Public · verified 2026-10-08. Public; GitHub reports fork=false, but the README identifies OSIRIS-derived work. Excluded from canonical activity. |
 <!-- BUILD-MAP:END -->
 
 **How to read this account:** company identity defines who we are; the canonical repositories define what the product does; real jobs and tests define what works. A newer demo does not outrank evidence.
@@ -103,7 +95,6 @@ These repositories define the current direction. Other repositories on this acco
 <summary><b>Recent activity · canonical, public, non-fork repositories only</b></summary>
 
 <!-- RECENT-ACTIVITY:START -->
-No verified public canonical activity is available yet. Experiments, forks, and private repositories are excluded.
 <!-- RECENT-ACTIVITY:END -->
 
 Activity signals show changes, not proven outcomes.
@@ -152,12 +143,6 @@ The company face is [Orpaynter-Inc](https://github.com/Orpaynter-Inc). This `orp
 ## 07 / Live signals
 
 <!-- SIGNALS:START -->
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/svg/signals-light.svg">
-  <img src="./assets/svg/signals.svg" alt="Repository traffic observations: views, daily unique counts, and top referrers; not GitHub profile-page analytics." width="480">
-</picture>
-
-Repository traffic only — not profile-page views or CTA click counts. [Collection and privacy limits](./docs/ANALYTICS.md).
 <!-- SIGNALS:END -->
 
 <details>
@@ -178,9 +163,9 @@ If you work in roofing, claims, field operations, insurance, or governed AI—an
 **Stop drowning in claims. Start closing them.**
 
 <p align="center">
-  <a href="https://orpaynter.ai/?utm_source=github&utm_medium=profile_readme&utm_campaign=system"><b>See the system</b></a> ·
-  <a href="https://orpaynter.ai/claimflow?utm_source=github&utm_medium=profile_readme&utm_campaign=claimflow"><b>Run ClaimFlow</b></a> ·
-  <a href="mailto:Ov@OrPaynter.com"><b>Talk to Oliver</b></a>
+  <a href="{{SYSTEM_URL}}"><b>See the system</b></a> ·
+  <a href="{{CLAIMFLOW_URL}}"><b>Run ClaimFlow</b></a> ·
+  <a href="{{CONTACT_URL}}"><b>Talk to Oliver</b></a>
 </p>
 
 <p align="center"><sub>OrPaynter, Inc. · Built on Trust. Powered by AI. · AI drafts. You govern.</sub></p>

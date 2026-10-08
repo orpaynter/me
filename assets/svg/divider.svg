@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 32" role="img" aria-labelledby="title desc">
+  <title id="title">Roof-to-system section divider</title><desc id="desc">A quiet line joins a roof peak, evidence nodes, and a fixed human gate.</desc>
+  <style>@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style>
+  <path d="M8 16H340L356 5L372 16H424M440 16H792" fill="none" stroke="#59718b" stroke-width="1.5"/>
+  <path d="M340 16L356 5L372 16H395" fill="none" stroke="#71dfc6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="399" cy="16" r="4" fill="#71dfc6"/><circle cx="460" cy="16" r="3" fill="#71dfc6"/>
+  <path d="M428 13V10A4 4 0 0 1 436 10V13M426 13H438V23H426Z" fill="#16263b" stroke="#f6c779" stroke-width="1.5"/>
+</svg>
