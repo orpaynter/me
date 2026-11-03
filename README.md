@@ -14,12 +14,33 @@
 
 # Oliver Paynter
 
-**Founder / CEO, [OrPaynter, Inc.](https://github.com/Orpaynter-Inc)**  
+**Founder / Architect, [OrPaynter, Inc.](https://github.com/Orpaynter-Inc)**  
 Roofer first. Building a governed AI workforce from real field work.
 
 A real objective becomes evidence-bound work, an authorized action, a verified outcome, and a useful next cycle. Learning cannot grant itself more control.
 
 Roofing claims are the first proving ground. They are not the limit of the company.
+
+## O³ — Canonical convergence and recursive closure (2026-11-03)
+
+**Goal:** make the existing OrPaynter work one coherent, verifiable customer product. The mission is not to invent another architecture, re-inventory the portfolio, or treat separate demos as complete customer delivery.
+
+**System roles:** OrPaynter website = front door; AGSI = evidence-informed intelligence; AIA = canonical orchestration, identity and durable state; Forge / MorphoHive / legacy code = bounded capability suppliers, not independent production authorities; DecisionPackages = evidence- and decision-binding artifacts; TRAE = default-deny authorization; ORPA = named-human review; ClaimFlow = initial roofing/claims application; receipts, independent verification, reconciliation and bounded learning = closeout.
+
+**O³ completion SOP:**
+- **O¹ · Component:** reuse what exists, repair the smallest missing requirement, test it and preserve the source revision and receipt.
+- **O² · Connection:** demonstrate the data/evidence handoff, authenticated tenant/principal, authority, error/retry behavior, audit and independent proof between components.
+- **O³ · Outcome:** demonstrate the exact customer journey: choose offer → approved checkout or scoped service order → provider-confirmed payment → bounded entitlement/work order → usable application → named-human review where required → customer-accessible deliverable → independently reviewable outcome.
+
+When a check fails, open only the smallest source-linked child repair under its parent acceptance requirement. Re-test and roll its evidence up; **no orphan blockers, no duplicate control planes, no phantom closure.** O¹/O²/O³ do not supersede the 17-stage [GACC acceptance contract](https://github.com/orpaynter/AIA/issues/128).
+
+**Evidence boundary (read-only check, 2026-11-03):** six active OrPaynter product records and prices were identified in the live Stripe catalog, but all nine hosted Payment Links inspected were inactive. The current website's product cards lead to inquiries; its $249 Claim Package path is not an independently accepted checkout-to-delivery workflow. AIA's public `claim-package` implementation explicitly disables commercial ordering/fulfillment, although other internal billing components exist. **GACC #128 is RED/BLOCKED and ClaimFlow customer-production release is NO-GO.** Historic synthetic or CI evidence is not a customer outcome or revenue.
+
+**Cross-app documentation discipline:** when a specific cross-platform update is explicitly authorized in a conversation, synchronize the existing canonical GitHub and Notion records in that same tool execution and read back results. Connectors **do not** mean that every future chat change automatically writes to GitHub/Notion; separate trigger/orchestration is required for unattended sync.
+
+**Current source links:** [GACC #128](https://github.com/orpaynter/AIA/issues/128) · [Notion Completion SOP](https://app.notion.com/p/40bee5ad658181e3ad60d90490dd54a9) · [Notion Canonical Spine](https://app.notion.com/p/5855705244644172931a597314222d1a) · [Website products](https://github.com/orpaynter/orpaynter-web/blob/main/src/pages/ProductsPage.tsx) · [Public AIA workflow](https://github.com/orpaynter/AIA/blob/main/agsi/public_workflow.py).
+
+---
 
 **AI drafts. A named human approves. The record stays reconstructable.**
 
@@ -111,7 +132,7 @@ Dated local and engineering evidence. Not traction. Full public write-up: [orpay
 
 ## How to read this account
 
-About 59 repositories. Most are private. Read them in this order. A newer demo does not outrank evidence.
+Repositories include canonical, legacy and experimental source; the count is not a measure of finished products. Read them in this order. A newer demo does not outrank evidence.
 
 | Layer | Repos | Read as |
 |---|---|---|
