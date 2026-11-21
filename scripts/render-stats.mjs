@@ -55,7 +55,7 @@ export function summarize(snapshots, targets) {
     const end = observationDay ? Date.parse(`${observationDay}T00:00:00.000Z`) : 0;
     const days = [...s.days.values()].filter(d => Date.parse(d.timestamp) >= end - 13 * 86400000 && Date.parse(d.timestamp) <= end)
       .sort((a, b) => a.timestamp.localeCompare(b.timestamp));
-    const views = days.length ? count(days.reduce((total, d) => total + d.count, 0)) : null;
+    const views = s.observedAt ? count(days.reduce((total, d) => total + d.count, 0)) : null;
     return { ...s, days, views, lastDay: days.at(-1) };
   });
 }
