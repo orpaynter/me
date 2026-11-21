@@ -230,8 +230,9 @@
         tab.addEventListener("click", () => select(index));
         tab.addEventListener("keydown", event => {
           let target;
-          if (event.key === "ArrowRight" || event.key === "ArrowDown") target = (current + 1) % tabs.length;
-          if (event.key === "ArrowLeft" || event.key === "ArrowUp") target = (current + tabs.length - 1) % tabs.length;
+          const vertical = tab.parentElement.getAttribute("aria-orientation") === "vertical";
+          if (event.key === (vertical ? "ArrowDown" : "ArrowRight")) target = (current + 1) % tabs.length;
+          if (event.key === (vertical ? "ArrowUp" : "ArrowLeft")) target = (current + tabs.length - 1) % tabs.length;
           if (event.key === "Home") target = 0;
           if (event.key === "End") target = tabs.length - 1;
           if (target !== undefined) { event.preventDefault(); select(target, true); }
